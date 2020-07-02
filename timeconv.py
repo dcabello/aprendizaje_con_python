@@ -1,0 +1,5 @@
+seg = eval(input("Tiempo en Segundos : "))
+horas = int(seg / 3600)
+minutos = int((seg % 3600) / 60)
+segundos = ((seg % 3600) % 60)
+print("{} segundos = {} horas, {} minutos, {} segundos".format(seg, horas, minutos, segundos))
